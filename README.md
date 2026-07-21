@@ -13,3 +13,7 @@ This research compares 5 classification models :
 3.  **AutoGluon** (AutoML)
 4.  **FLAML** (AutoML)
 5.  **PyCaret** (AutoML)
+
+**Research Scenario:**
+*   **Scenario 1 (4 classes - B, C, D, F):** Testing the model's robustness to extreme class imbalance (Class F minority). *Random Over-Sampling* (ROS) is strictly applied only to the *training set* to prevent *data leakage*.
+*   **Skenario 2 (3 Kelas - B, C, D):** Evaluasi performa model ketika kelas minoritas (F) dihapus dari skenario untuk melihat perubahan *threshold* keputusan model.
